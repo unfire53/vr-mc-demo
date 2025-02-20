@@ -1,4 +1,4 @@
-# BuildVoxel
+![image](https://github.com/user-attachments/assets/eddb452c-eeab-401e-885c-c231418f9311)![image](https://github.com/user-attachments/assets/9b88d133-c25f-44ca-b7e6-aff3e52b348b)# BuildVoxel
 # vr-自制mc-demo
 
 **简短描述**：这个demo主要是在vr上制作了一个小型的，上帝视角的mc类型的建造游戏。游戏整体灵感来自mc，大概的技术也是学习的mc里面的一些源码。当时想制作这个游戏的原因一方面个人很喜爱vr，拥有pico4和q3s。二是看重了vr的高互动性以及体素游戏的高自由度，就想着尝试做一个mc版本的城建游戏。但是碍于技术问题(自己水平有限)😔，所以只做了其中的一小部分。以demo的形式放到github上，以后更不更新随缘了2333。
@@ -24,12 +24,14 @@ demo主要的玩法就是用双手去搭建体素的世界，整个世界都是�
 
 ## **功能特性**
 - **超高自由度的摆放方块**: 这个是核心实现的功能，希望根据玩家手柄朝向的不同，最后方块放置的朝向与玩家放置的方向完全一致。这样既符合现实中自然的摆放，符合直觉，有小时候搭积木的感觉。个人也觉得超越了原版mc的那种根据视角朝向的复杂的麻烦的摆放方法。
+
+![摆放方块](https://raw.githubusercontent.com/unfire53/vr-mc-demo/refs/heads/main/build.gif)
+
 - **随机地形生成**：可以根据seed生成不同地形，并且地形生成效果不错，高低起伏明显。地图大小为10*10区块(碍于游戏的玩法和vr羸弱的机能，原先做好的无限世界删掉了)。可以在unity中更改地形的样条曲线，从而获得更加定制化的地形。
 - **上帝视角建造世界**：游戏是第一人称上帝视角的，所以玩起来有一点lego的感觉，挺特别的。解决了我认为mc原版搭房子要大幅度移动视角的麻烦。
 - **支持a*寻路**：游戏可以放置少量ai，看着ai在地图里走动，砍树，种田。个人的创世主梦得到了满足😌。但是由于技术和机能问题，只能放置少量的ai村民。
-- 
-## 游戏演示
-![GIF说明](https://github.com/unfire53/vr-mc-demo/blob/main/build.gif)
+
+![a*](https://github.com/unfire53/vr-mc-demo/blob/main/walk.gif)
 
 ---
 
