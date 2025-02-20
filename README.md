@@ -29,7 +29,7 @@ demo主要的玩法就是用双手去搭建体素的世界，整个世界都是�
 - **支持a*寻路**：游戏可以放置少量ai，看着ai在地图里走动，砍树，种田。个人的创世主梦得到了满足😌。但是由于技术和机能问题，只能放置少量的ai村民。
 - 
 ## 游戏演示
-![GIF说明](https://github.com/unfire53/vr-mc-demo/blob/main/a*.gif)
+![GIF说明](https://github.com/unfire53/vr-mc-demo/blob/main/demo.gif)
 
 ---
 
