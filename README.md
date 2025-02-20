@@ -29,11 +29,14 @@ demo主要的玩法就是用双手去搭建体素的世界，整个世界都是�
 
 - **随机地形生成**：可以根据seed生成不同地形，并且地形生成效果不错，高低起伏明显。地图大小为10*10区块(碍于游戏的玩法和vr羸弱的机能，原先做好的无限世界删掉了)。可以在unity中更改地形的样条曲线，从而获得更加定制化的地形。
 - **上帝视角建造世界**：游戏是第一人称上帝视角的，所以玩起来有一点lego的感觉，挺特别的。解决了我认为mc原版搭房子要大幅度移动视角的麻烦。
+
+![gif](https://github.com/unfire53/vr-mc-demo/blob/main/demo.gif)
+
 - **支持a*寻路**：游戏可以放置少量ai，看着ai在地图里走动，砍树，种田。个人的创世主梦得到了满足😌。但是由于技术和机能问题，只能放置少量的ai村民。
 
 ![a*](https://github.com/unfire53/vr-mc-demo/blob/main/walk.gif)
 
-![砍树](https://github.com/unfire53/vr-mc-demo/blob/main/demo.gif)
+
 
 ---
 
